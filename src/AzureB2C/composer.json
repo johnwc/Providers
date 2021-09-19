@@ -1,0 +1,37 @@
+{
+    "name": "socialiteproviders/azureb2c",
+    "description": "Azure AD B2C OAuth2 Provider for Laravel Socialite",
+    "keywords": [
+        "azure",
+        "aad",
+        "b2c",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "version": "1.0.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Carew",
+            "email": "johnwcarew@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0",
+        "web-token/jwt-framework": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\AzureB2C\\": ""
+        }
+    },
+    "support": {
+        "issues": "https://github.com/socialiteproviders/providers/issues",
+        "source": "https://github.com/socialiteproviders/providers",
+        "docs": "https://docs.microsoft.com/en-us/azure/active-directory-b2c/protocols-overview"
+    }
+}
